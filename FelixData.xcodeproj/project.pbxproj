@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D042EE9529B0D0CC00D4AF51 /* FelixDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042EE9429B0D0CC00D4AF51 /* FelixDataApp.swift */; };
+		D042EE9729B0D0CC00D4AF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042EE9629B0D0CC00D4AF51 /* ContentView.swift */; };
+		D042EE9929B0D0CE00D4AF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D042EE9829B0D0CE00D4AF51 /* Assets.xcassets */; };
+		D042EE9C29B0D0CE00D4AF51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D042EE9B29B0D0CE00D4AF51 /* Preview Assets.xcassets */; };
+		D042EEA429B0D11C00D4AF51 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042EEA329B0D11C00D4AF51 /* CustomTextEditor.swift */; };
+		D05E885D29B1055100466344 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E885C29B1055100466344 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D042EE9129B0D0CC00D4AF51 /* FelixData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FelixData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D042EE9429B0D0CC00D4AF51 /* FelixDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FelixDataApp.swift; sourceTree = "<group>"; };
+		D042EE9629B0D0CC00D4AF51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D042EE9829B0D0CE00D4AF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D042EE9B29B0D0CE00D4AF51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D042EE9D29B0D0CE00D4AF51 /* FelixData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FelixData.entitlements; sourceTree = "<group>"; };
+		D042EEA329B0D11C00D4AF51 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
+		D05E885C29B1055100466344 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D042EE8E29B0D0CC00D4AF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D042EE8829B0D0CC00D4AF51 = {
+			isa = PBXGroup;
+			children = (
+				D042EE9329B0D0CC00D4AF51 /* FelixData */,
+				D042EE9229B0D0CC00D4AF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D042EE9229B0D0CC00D4AF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D042EE9129B0D0CC00D4AF51 /* FelixData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D042EE9329B0D0CC00D4AF51 /* FelixData */ = {
+			isa = PBXGroup;
+			children = (
+				D042EE9429B0D0CC00D4AF51 /* FelixDataApp.swift */,
+				D042EEA329B0D11C00D4AF51 /* CustomTextEditor.swift */,
+				D05E885C29B1055100466344 /* File.swift */,
+				D042EE9629B0D0CC00D4AF51 /* ContentView.swift */,
+				D042EE9829B0D0CE00D4AF51 /* Assets.xcassets */,
+				D042EE9D29B0D0CE00D4AF51 /* FelixData.entitlements */,
+				D042EE9A29B0D0CE00D4AF51 /* Preview Content */,
+			);
+			path = FelixData;
+			sourceTree = "<group>";
+		};
+		D042EE9A29B0D0CE00D4AF51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D042EE9B29B0D0CE00D4AF51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D042EE9029B0D0CC00D4AF51 /* FelixData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D042EEA029B0D0CE00D4AF51 /* Build configuration list for PBXNativeTarget "FelixData" */;
+			buildPhases = (
+				D042EE8D29B0D0CC00D4AF51 /* Sources */,
+				D042EE8E29B0D0CC00D4AF51 /* Frameworks */,
+				D042EE8F29B0D0CC00D4AF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FelixData;
+			productName = FelixData;
+			productReference = D042EE9129B0D0CC00D4AF51 /* FelixData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D042EE8929B0D0CC00D4AF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D042EE9029B0D0CC00D4AF51 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D042EE8C29B0D0CC00D4AF51 /* Build configuration list for PBXProject "FelixData" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D042EE8829B0D0CC00D4AF51;
+			productRefGroup = D042EE9229B0D0CC00D4AF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D042EE9029B0D0CC00D4AF51 /* FelixData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D042EE8F29B0D0CC00D4AF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D042EE9C29B0D0CE00D4AF51 /* Preview Assets.xcassets in Resources */,
+				D042EE9929B0D0CE00D4AF51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D042EE8D29B0D0CC00D4AF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D042EEA429B0D11C00D4AF51 /* CustomTextEditor.swift in Sources */,
+				D05E885D29B1055100466344 /* File.swift in Sources */,
+				D042EE9729B0D0CC00D4AF51 /* ContentView.swift in Sources */,
+				D042EE9529B0D0CC00D4AF51 /* FelixDataApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D042EE9E29B0D0CE00D4AF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D042EE9F29B0D0CE00D4AF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D042EEA129B0D0CE00D4AF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FelixData/FelixData.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FelixData/Preview Content\"";
+				DEVELOPMENT_TEAM = VD38UV2MEF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertarican.developer.FelixData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D042EEA229B0D0CE00D4AF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FelixData/FelixData.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FelixData/Preview Content\"";
+				DEVELOPMENT_TEAM = VD38UV2MEF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertarican.developer.FelixData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D042EE8C29B0D0CC00D4AF51 /* Build configuration list for PBXProject "FelixData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D042EE9E29B0D0CE00D4AF51 /* Debug */,
+				D042EE9F29B0D0CE00D4AF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D042EEA029B0D0CE00D4AF51 /* Build configuration list for PBXNativeTarget "FelixData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D042EEA129B0D0CE00D4AF51 /* Debug */,
+				D042EEA229B0D0CE00D4AF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D042EE8929B0D0CC00D4AF51 /* Project object */;
+}
