@@ -48,14 +48,18 @@ struct CustomTextEditor: NSViewRepresentable {
         
         func textViewDidChangeSelection(_ notification: Notification) {
             Cons.asd = (notification.object as? NSTextView)?.selectedRange().length ?? -1
-            print((notification.object as? NSTextView)?.selectedRange(), "HHH")
+            let selectedRange = (notification.object as? NSTextView)?.selectedRange()
+            print(selectedRange, "HHH")
+            let text = (notification.object as? NSTextView)!.string
+            let low = text.index(text.startIndex, offsetBy: selectedRange!.lowerBound)
+            let high = text.index(text.startIndex, offsetBy: selectedRange!.upperBound)
+            print(text[low..<high])
         }
         
         func textDidChange(_ notification: Notification) {
             DispatchQueue.main.async {
                 if let text = (notification.object as? NSTextView)?.string {
                     self.parent.$text.wrappedValue = text
-                    print(self.parent.$text.wrappedValue.hasPrefix("\t"))
                 }
             }
         }
