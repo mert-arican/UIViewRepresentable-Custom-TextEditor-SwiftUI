@@ -9,16 +9,6 @@ import Foundation
 import SwiftUI
 import AppKit
 
-class HTMLFormatter: StringFormatter {
-        func format(string: String) -> NSAttributedString? {
-            guard let data = string.data(using: .utf8),
-                  let attributedText = try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue], documentAttributes: nil)
-            else { return nil }
-            
-            return attributedText
-        }
-    }
-
 struct CustomTextEditor: NSViewRepresentable {
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
@@ -49,11 +39,17 @@ struct CustomTextEditor: NSViewRepresentable {
         func textViewDidChangeSelection(_ notification: Notification) {
             Cons.asd = (notification.object as? NSTextView)?.selectedRange().length ?? -1
             let selectedRange = (notification.object as? NSTextView)?.selectedRange()
-            print(selectedRange, "HHH")
+//            print(selectedRange, "HHH")
+            
             let text = (notification.object as? NSTextView)!.string
+//            let den = Den(str: text)
+//            if let data = den.json {
+//                print(String(data: data, encoding: .utf8)!)
+//            }
             let low = text.index(text.startIndex, offsetBy: selectedRange!.lowerBound)
             let high = text.index(text.startIndex, offsetBy: selectedRange!.upperBound)
-            print(text[low..<high])
+//            print(selectedRange!.lowerBound, selectedRange!.upperBound)
+//            print(text[low..<high])
         }
         
         func textDidChange(_ notification: Notification) {
@@ -65,12 +61,3 @@ struct CustomTextEditor: NSViewRepresentable {
         }
     }
 }
-
-//extension CustomTextEditor.Coordinator: NSControlTextEditingDelegate {
-//    override func controlTextDidChange(_ notification: Notification) {
-//        if let textField = notification.object as? NSTextField {
-//            print(textField.stringValue)
-//            //do what you need here
-//        }
-//    }
-//}
